@@ -16,4 +16,9 @@ public class MainController {
 
     }
 
+    @RequestMapping(value = "/shalom", method = RequestMethod.GET)
+    public String shalom(){
+        return "Shalom from spring";
+    }
+
 }
